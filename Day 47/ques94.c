@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <string.h>
 
 int main() {
     char str[200], word[50], longest[50];
