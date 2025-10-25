@@ -5,14 +5,14 @@ int main() {
     int count = 0;
 
     printf("Enter a string: ");
-    fgets(str, sizeof(str), stdin);  // safer than gets()
+    fgets(str, sizeof(str), stdin);  
 
-    // Loop until we reach the null character '\0'
+    
     while (str[count] != '\0') {
         count++;
     }
 
-    // Subtract 1 because fgets() includes the newline character
+    
     if (str[count - 1] == '\n') {
         count--;
     }
